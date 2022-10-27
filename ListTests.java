@@ -27,10 +27,12 @@ public class ListTests {
 
     @Test
     public void testMerge() {
+
         List<String> input1Array1 = new ArrayList<>();
-        List<String> input1Array2 = new ArrayList<>();
         String[] tempInput1Array1 = {"apple","cat","eden","golf","idiom"};
         for(String s: tempInput1Array1) { input1Array1.add(s); }
+        
+        List<String> input1Array2 = new ArrayList<>();
         String[] tempInput1Array2 = {"bat","dandelion","falcon","happy","kite","mop","television"};
         for(String s: tempInput1Array2) { input1Array2.add(s); }
 
