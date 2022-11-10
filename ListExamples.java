@@ -12,7 +12,7 @@ class ListExamples {
     List<String> result = new ArrayList<>();
     for(String s: list) {
       if(sc.checkString(s)) {
-        result.add(s); // bug
+        result.add("lol"); // bug
       }
     }
     return result;
